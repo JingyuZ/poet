@@ -1,0 +1,44 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.canvas {
+  background-color: #d8a9ad;
+  height: 800px;
+  letter-spacing: 8px;
+  margin: auto;
+  width: 450px;
+  writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+
+  p {
+    display: inline;
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 250px;
+  }
+
+  h2 {
+    margin-top: 450px;
+  }
+
+  .title {
+    color: black;
+    font-size: 50px;
+    margin-top: 200px;
+  }
+
+  .stamp {
+    position: relative;
+  }
+  .stamp:after {
+    border: solid 0.1em #d00;
+    border-radius: .2em;
+    color: #d00;
+    content: '元稹';
+    font-size: 25px;
+    position: absolute;
+    padding: .5em .5em;
+    margin: 0 auto;
+  }
+}
